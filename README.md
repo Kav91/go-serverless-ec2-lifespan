@@ -7,7 +7,8 @@ Provide an EC2 Instance a Lifespan tag with integer value representing remaining
 - - `"10"` (10 minutes left to live)
 - - `"15:30"` (will stop at specificed time)
 - Optionally supply -terminate at the end of time period, to terminate the instance
-- - eg. `"10-terminate"` (will terminate instance in 10m)
+- - `"10-terminate"` (will terminate instance in 10m)
+- - `"12:44-terminate"` (will terminate instance at 12:44)
 
 ```sh
 Ensure you have serverless framework installed & relevant imports added, see within .go files
