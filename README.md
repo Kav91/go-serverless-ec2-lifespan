@@ -1,4 +1,4 @@
-# Serverless Golang EC2 Lifespan
+# Serverless Golang - EC2 Lifespan Lambda
 
 Provide an EC2 Instance a Lifespan tag with integer value representing remaining minutes left to live or time eg. 14:22 to stop by.
 
@@ -46,7 +46,7 @@ var concurrency = 5
 
 ### Compiling & Deploying
 
-As AWS Lambda runs on linux you will need to compile for linux
+As AWS Lambda runs on linux you will need to compile for linux.
 For further info: https://github.com/aws/aws-lambda-go
 
 ```sh
